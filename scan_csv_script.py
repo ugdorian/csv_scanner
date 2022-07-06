@@ -25,3 +25,4 @@ filename = sys.argv[1]
 time1 = time.time_ns()
 scan_file(filename)
 time2 = time.time_ns()
+print(time2-time1)
